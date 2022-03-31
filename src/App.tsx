@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Barrapesquisa } from './components/BarraPesquisa'
-import test from './imgs/test.png'
+import test from '.test.png'
 import './App.css'
 
 
