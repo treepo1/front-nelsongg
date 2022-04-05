@@ -1,19 +1,20 @@
+
 import { useState } from 'react'
-import { Barrapesquisa } from './components/BarraPesquisa'
-import test from '.test.png'
-import './App.css'
+import GlobalStyle from "./styles/global"
+import AppRoutes from './routes'
 
 
 
 
 function App() {
 
-
   return (
-    <div className="App">
-      <img className= "simb" src = {test}></img>
-      <Barrapesquisa></Barrapesquisa>
-    </div>
+    <>
+      <AppRoutes/>
+      <GlobalStyle></GlobalStyle>
+
+    </> 
+
   )
 }
 
